@@ -1,0 +1,20 @@
+{
+  "name": "angular-weather-application",
+  "description": "seeding AngularJS weather application",
+  "version": "0.0.6",
+  "author": {
+    "name": "Georgios Vasilaras",
+    "number":"A00945237",
+    "email": "vasilaras23@yahoo.gr"
+  },
+  "scripts": {
+    "start": "node scripts/web-server.js"
+  },
+  "devDependencies": {
+      "phantomjs" : "*",
+      "karma" : "*",
+      "karma-junit-reporter" : "*",
+      "karma-jasmine" : "*",
+      "karma-ng-scenario" : "*"
+  }
+}
